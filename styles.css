@@ -92,3 +92,18 @@ p {
         border-style: none none solid none;
         color: #ffffff;
     } */
+
+#about {
+    background-color: #000000;
+    background-image: url(spacex-about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+#about>p {
+    color: #e5e5e5;
+    margin-left: 40px;
+    padding-right: 500px;
+}
