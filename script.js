@@ -81,5 +81,3 @@ console.log(document.querySelectorAll("div > p"));
 
 /* för eventet gör så att man kan trycka på en knapp som gör att den visar om
 launches va succesful eller inte */
-
-const statusInfo = document.querySelector("#status>h3")
