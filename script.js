@@ -17,6 +17,12 @@ fetch('https://api.spacexdata.com/v5/launches')
             launchFlightNumbers[j].textContent = result[i].flight_number
             launchDates[j].textContent = result[i].date_local
         }
+        /*
+                document.querySelector("button").addEventListener("click", () => {
+                    statusInfo.textContent = "STATUS success:" + result[1].success + "(" + result[1].details + ")"
+                })
+         */
+
     })
 
 const launchSection = document.querySelector("#launch-section")
@@ -52,7 +58,6 @@ console.log(launchNames);
 
 
 
-// Gör en
 
 const launchInfoContainers = document.querySelectorAll("#launch-section > div")
 
@@ -73,22 +78,8 @@ console.log(document.querySelectorAll("div > p"));
 
 
 
-// for (i = 0; i < )
-
-/* Skapa en loop där man lägger in info från varje array */
 
 /* för eventet gör så att man kan trycka på en knapp som gör att den visar om
 launches va succesful eller inte */
 
-//gör en loop där du target specifika childelements beroende på info
-
-const a = 1;
-
-switch (a) {
-    case 1:
-        console.log("a");
-    case 2:
-        console.log("a");
-    default:
-        console.log("a");
-}
+const statusInfo = document.querySelector("#status>h3")
