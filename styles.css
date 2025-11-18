@@ -168,6 +168,10 @@ h3 {
     justify-content: space-between;
 }
 
+#launch-about>div {
+    background-color: #000000;
+}
+
 #info>p {
     padding-right: 600px;
     padding-left: 40px;
