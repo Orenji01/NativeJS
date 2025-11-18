@@ -25,6 +25,15 @@ for (i = 0; i < 10; i++) {
 const launchInfoContainers = document.querySelectorAll("#launch-section > div")
 
 
+launchInfoContainers[1].addEventListener("click", () => {
+    window.open("launch.html")
+})
+
+launchInfoContainers[1].addEventListener("mouseover", () => {
+    launchInfoContainers[1].style.cursor = "pointer"
+})
+
+console.log(launchInfoContainers[1]);
 
 
 /* för eventet gör så att man kan trycka på en knapp som gör att den visar om
