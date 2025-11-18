@@ -2,11 +2,12 @@ fetch('https://api.spacexdata.com/v5/launches')
     .then((response) => response.json())
     .then((result) => {
         console.log(result)
-        for (i = 1; i < 11; i++) {
-            launchInfoContainers[i].childNodes[0].textContent = result[i].name
-            launchInfoContainers[i].childNodes[1].textContent = result[i].id
-            launchInfoContainers[i].childNodes[2].textContent = result[i].flight_number
-            launchInfoContainers[i].childNodes[3].textContent = result[i].date_local
+        for (i = 0; i < 11; i++) {
+            let j = i + 1;
+            launchInfoContainers[j].childNodes[0].textContent = result[i].name
+            launchInfoContainers[j].childNodes[1].textContent = result[i].id
+            launchInfoContainers[j].childNodes[2].textContent = result[i].flight_number
+            launchInfoContainers[j].childNodes[3].textContent = result[i].date_local
         }
     })
 
