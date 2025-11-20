@@ -38,3 +38,5 @@ console.log(launchInfoContainers[1]);
 
 /* för eventet gör så att man kan trycka på en knapp som gör att den visar om
 launches va succesful eller inte */
+
+/* Gör en random badge generator som nyttjar webstorage */
