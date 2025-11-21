@@ -89,7 +89,7 @@ p {
     border-width: 0.5px;
 }
 
-#launch-section>p {
+#launch-section>div>p {
     width: 25%;
 }
 
